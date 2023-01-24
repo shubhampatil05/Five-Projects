@@ -1,0 +1,134 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+.container-fluid {
+  background-color: rgb(78, 76, 76);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.searchBox {
+  margin-bottom: 20px;
+}
+
+.searchBox > input {
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 230px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  height: 30px;
+  font-weight: bold;
+}
+.searchBox > button {
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: rgb(43, 121, 121);
+  border: none;
+  height: 32px;
+  padding: 0 10px 0 10px;
+}
+
+article {
+  background-color: gray;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px -5px;
+}
+.Icon {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #ffffff;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 85px;
+  margin-bottom: 10px;
+}
+.Section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 120px;
+}
+.temp {
+  width: 70%;
+  background-color: black;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.temp > h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.location > b {
+  font-size: 30px;
+  font-weight: 100;
+}
+.location > i {
+  font-size: 10px;
+}
+
+.date {
+  width: 30%;
+  background-color: rgb(65, 129, 129);
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.date > h3 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.extra-info {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+}
+
+.footer {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.topFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topFooter > p > i {
+  color: rgb(98, 168, 168);
+}
+.bottomFooter > p {
+  font-weight: bold;
+}
+
+.bottomFooter > span {
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

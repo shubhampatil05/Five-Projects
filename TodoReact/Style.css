@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: azure;
+}
+figure > figcaption {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+
+.AddItems {
+  width: 250px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px -3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: azure;
+  font-weight: bold;
+  opacity: 0.7;
+  height: 30px;
+  text-transform: capitalize;
+}
+.EachItem {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  background-color: rgb(118, 159, 235);
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.add {
+  cursor: pointer;
+}
+.edit {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.delete {
+  cursor: pointer;
+  margin-left: 5px;
+}
+.btn {
+  padding: 5px 12px 5px 12px;
+  margin-top: 20px;
+}
+h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+}
